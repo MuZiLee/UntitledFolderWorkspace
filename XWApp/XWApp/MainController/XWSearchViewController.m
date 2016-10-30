@@ -11,6 +11,8 @@
 #define kWidth [UIScreen mainScreen].bounds.size.width
 #define kHeight [UIScreen mainScreen].bounds.size.height
 
+#define kSearchBarFrame (CGRectMake(0, 0, kWidth, EXT_SEARCH_BAR_HEIGHT))
+
 CGFloat const EXT_SEARCH_BAR_HEIGHT = 44;
 
 @interface XWSearchViewController () <UISearchControllerDelegate,UISearchResultsUpdating>
@@ -52,7 +54,7 @@ CGFloat const EXT_SEARCH_BAR_HEIGHT = 44;
     self.search = [[UISearchController alloc] initWithSearchResultsController:self.searchController];
     self.search.searchResultsUpdater = self;
     self.search.delegate = self;
-    self.search.searchBar.frame = CGRectMake(0, 0, kWidth, EXT_SEARCH_BAR_HEIGHT);
+    self.search.searchBar.frame = kSearchBarFrame;
 //    self.searchController.searchBar.barTintColor = [UIColor yellowColor];
     [self.contentView addSubview:self.search.searchBar];
     
@@ -64,7 +66,12 @@ CGFloat const EXT_SEARCH_BAR_HEIGHT = 44;
     if ([self respondsToSelector:@selector(edgesForExtendedLayout)]) {
         self.edgesForExtendedLayout = UIRectEdgeBottom;
     }
-    
+}
+
+- (void)viewDidLayoutSubviews
+{
+    [super viewDidLayoutSubviews];
+    self.search.searchBar.frame = kSearchBarFrame;
 }
 
 - (void)willPresentSearchController:(UISearchController *)searchController
