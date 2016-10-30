@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "7CD6CA65B2D6F502CE76328097A00D0B05C5A563",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "9F432A3F43DDB44947C5AAD5769218A9A6658942" : 0,
+    "7CD6CA65B2D6F502CE76328097A00D0B05C5A563" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "F3847412-64AE-40EC-B078-BB7E896A8B31",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "9F432A3F43DDB44947C5AAD5769218A9A6658942" : "",
+    "7CD6CA65B2D6F502CE76328097A00D0B05C5A563" : "UntitledFolderWorkspace\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "Untitled",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "Untitled.xcworkspace",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/MuZiLee\/UntitledFolderWorkspace.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "7CD6CA65B2D6F502CE76328097A00D0B05C5A563"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/MuZiLee\/OneBox.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "9F432A3F43DDB44947C5AAD5769218A9A6658942"
+    }
+  ]
+}
