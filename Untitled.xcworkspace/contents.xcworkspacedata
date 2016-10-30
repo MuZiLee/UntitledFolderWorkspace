@@ -2,9 +2,12 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "group:XWOneBox/XWOneBox.xcodeproj">
+      location = "group:XWApp/XWApp.xcodeproj">
    </FileRef>
    <FileRef
-      location = "group:XWApp/XWApp.xcodeproj">
+      location = "group:XWTest/XWTest.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:XWOneBox/XWOneBox.xcodeproj">
    </FileRef>
 </Workspace>

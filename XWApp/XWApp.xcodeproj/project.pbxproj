@@ -9,10 +9,26 @@
 /* Begin PBXBuildFile section */
 		FD0B2E4B1DC60ACD005FE50B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FD0B2E4A1DC60ACD005FE50B /* main.m */; };
 		FD0B2E4E1DC60ACD005FE50B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FD0B2E4D1DC60ACD005FE50B /* AppDelegate.m */; };
-		FD0B2E511DC60ACD005FE50B /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FD0B2E501DC60ACD005FE50B /* ViewController.m */; };
-		FD0B2E541DC60ACD005FE50B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FD0B2E521DC60ACD005FE50B /* Main.storyboard */; };
 		FD0B2E561DC60ACD005FE50B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FD0B2E551DC60ACD005FE50B /* Assets.xcassets */; };
 		FD0B2E591DC60ACD005FE50B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FD0B2E571DC60ACD005FE50B /* LaunchScreen.storyboard */; };
+		FD0B2E7C1DC60CD0005FE50B /* embedded in Resources */ = {isa = PBXBuildFile; fileRef = FD0B2E7B1DC60CD0005FE50B /* embedded */; };
+		FD0B2E7E1DC60D13005FE50B /* Entitlements.plist in Resources */ = {isa = PBXBuildFile; fileRef = FD0B2E7D1DC60D13005FE50B /* Entitlements.plist */; };
+		FD0B2E9D1DC6190F005FE50B /* MainNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = FD0B2E9C1DC6190F005FE50B /* MainNavigationController.m */; };
+		FD0B2EA21DC61918005FE50B /* HWPBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FD0B2E9F1DC61918005FE50B /* HWPBaseViewController.m */; };
+		FD0B2EA31DC61918005FE50B /* ManagerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FD0B2EA11DC61918005FE50B /* ManagerViewController.m */; };
+		FD0B2EA61DC61921005FE50B /* PopoverTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FD0B2EA51DC61921005FE50B /* PopoverTableViewController.m */; };
+		FD0B2EBF1DC6192B005FE50B /* HWPMyCloudViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FD0B2EA91DC6192B005FE50B /* HWPMyCloudViewController.m */; };
+		FD0B2EC21DC6192B005FE50B /* expandableImage.png in Resources */ = {isa = PBXBuildFile; fileRef = FD0B2EAF1DC6192B005FE50B /* expandableImage.png */; };
+		FD0B2EC31DC6192B005FE50B /* expandableImage@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = FD0B2EB01DC6192B005FE50B /* expandableImage@2x.png */; };
+		FD0B2EC41DC6192B005FE50B /* HWPBaseCellAccessoryView.m in Sources */ = {isa = PBXBuildFile; fileRef = FD0B2EB21DC6192B005FE50B /* HWPBaseCellAccessoryView.m */; };
+		FD0B2EC51DC6192B005FE50B /* HWPBaseTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = FD0B2EB41DC6192B005FE50B /* HWPBaseTableView.m */; };
+		FD0B2EC61DC6192B005FE50B /* HWPBaseTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = FD0B2EB61DC6192B005FE50B /* HWPBaseTableViewCell.m */; };
+		FD0B2EC71DC6192B005FE50B /* HWPMyShareViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FD0B2EB81DC6192B005FE50B /* HWPMyShareViewController.m */; };
+		FD0B2EC81DC6192B005FE50B /* HWPShareToMeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FD0B2EBB1DC6192B005FE50B /* HWPShareToMeViewController.m */; };
+		FD0B2EC91DC6192B005FE50B /* HWPTeamSpaceViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FD0B2EBE1DC6192B005FE50B /* HWPTeamSpaceViewController.m */; };
+		FD0B2ECD1DC61A19005FE50B /* NSString+Category.m in Sources */ = {isa = PBXBuildFile; fileRef = FD0B2ECC1DC61A19005FE50B /* NSString+Category.m */; };
+		FD0B2ECF1DC61A69005FE50B /* titleTouchLab.png in Resources */ = {isa = PBXBuildFile; fileRef = FD0B2ECE1DC61A69005FE50B /* titleTouchLab.png */; };
+		FD0B2ED21DC61AB9005FE50B /* XWSearchViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FD0B2ED11DC61AB9005FE50B /* XWSearchViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,12 +36,41 @@
 		FD0B2E4A1DC60ACD005FE50B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		FD0B2E4C1DC60ACD005FE50B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		FD0B2E4D1DC60ACD005FE50B /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		FD0B2E4F1DC60ACD005FE50B /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		FD0B2E501DC60ACD005FE50B /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		FD0B2E531DC60ACD005FE50B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		FD0B2E551DC60ACD005FE50B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FD0B2E581DC60ACD005FE50B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FD0B2E5A1DC60ACD005FE50B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FD0B2E7B1DC60CD0005FE50B /* embedded */ = {isa = PBXFileReference; lastKnownFileType = folder; name = embedded; path = ../embedded; sourceTree = "<group>"; };
+		FD0B2E7D1DC60D13005FE50B /* Entitlements.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Entitlements.plist; sourceTree = "<group>"; };
+		FD0B2E7F1DC60ED3005FE50B /* XWAppMacro.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XWAppMacro.h; sourceTree = "<group>"; };
+		FD0B2E9B1DC6190F005FE50B /* MainNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainNavigationController.h; sourceTree = "<group>"; };
+		FD0B2E9C1DC6190F005FE50B /* MainNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainNavigationController.m; sourceTree = "<group>"; };
+		FD0B2E9E1DC61918005FE50B /* HWPBaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HWPBaseViewController.h; sourceTree = "<group>"; };
+		FD0B2E9F1DC61918005FE50B /* HWPBaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HWPBaseViewController.m; sourceTree = "<group>"; };
+		FD0B2EA01DC61918005FE50B /* ManagerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ManagerViewController.h; sourceTree = "<group>"; };
+		FD0B2EA11DC61918005FE50B /* ManagerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ManagerViewController.m; sourceTree = "<group>"; };
+		FD0B2EA41DC61921005FE50B /* PopoverTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PopoverTableViewController.h; sourceTree = "<group>"; };
+		FD0B2EA51DC61921005FE50B /* PopoverTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PopoverTableViewController.m; sourceTree = "<group>"; };
+		FD0B2EA81DC6192B005FE50B /* HWPMyCloudViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HWPMyCloudViewController.h; sourceTree = "<group>"; };
+		FD0B2EA91DC6192B005FE50B /* HWPMyCloudViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HWPMyCloudViewController.m; sourceTree = "<group>"; };
+		FD0B2EAF1DC6192B005FE50B /* expandableImage.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = expandableImage.png; sourceTree = "<group>"; };
+		FD0B2EB01DC6192B005FE50B /* expandableImage@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "expandableImage@2x.png"; sourceTree = "<group>"; };
+		FD0B2EB11DC6192B005FE50B /* HWPBaseCellAccessoryView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HWPBaseCellAccessoryView.h; sourceTree = "<group>"; };
+		FD0B2EB21DC6192B005FE50B /* HWPBaseCellAccessoryView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HWPBaseCellAccessoryView.m; sourceTree = "<group>"; };
+		FD0B2EB31DC6192B005FE50B /* HWPBaseTableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HWPBaseTableView.h; sourceTree = "<group>"; };
+		FD0B2EB41DC6192B005FE50B /* HWPBaseTableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HWPBaseTableView.m; sourceTree = "<group>"; };
+		FD0B2EB51DC6192B005FE50B /* HWPBaseTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HWPBaseTableViewCell.h; sourceTree = "<group>"; };
+		FD0B2EB61DC6192B005FE50B /* HWPBaseTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HWPBaseTableViewCell.m; sourceTree = "<group>"; };
+		FD0B2EB71DC6192B005FE50B /* HWPMyShareViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HWPMyShareViewController.h; sourceTree = "<group>"; };
+		FD0B2EB81DC6192B005FE50B /* HWPMyShareViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HWPMyShareViewController.m; sourceTree = "<group>"; };
+		FD0B2EBA1DC6192B005FE50B /* HWPShareToMeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HWPShareToMeViewController.h; sourceTree = "<group>"; };
+		FD0B2EBB1DC6192B005FE50B /* HWPShareToMeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HWPShareToMeViewController.m; sourceTree = "<group>"; };
+		FD0B2EBD1DC6192B005FE50B /* HWPTeamSpaceViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HWPTeamSpaceViewController.h; sourceTree = "<group>"; };
+		FD0B2EBE1DC6192B005FE50B /* HWPTeamSpaceViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HWPTeamSpaceViewController.m; sourceTree = "<group>"; };
+		FD0B2ECB1DC61A19005FE50B /* NSString+Category.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+Category.h"; sourceTree = "<group>"; };
+		FD0B2ECC1DC61A19005FE50B /* NSString+Category.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+Category.m"; sourceTree = "<group>"; };
+		FD0B2ECE1DC61A69005FE50B /* titleTouchLab.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = titleTouchLab.png; sourceTree = "<group>"; };
+		FD0B2ED01DC61AB9005FE50B /* XWSearchViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XWSearchViewController.h; sourceTree = "<group>"; };
+		FD0B2ED11DC61AB9005FE50B /* XWSearchViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XWSearchViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -42,6 +87,8 @@
 		FD0B2E3D1DC60ACD005FE50B = {
 			isa = PBXGroup;
 			children = (
+				FD0B2E7B1DC60CD0005FE50B /* embedded */,
+				FD0B2E7D1DC60D13005FE50B /* Entitlements.plist */,
 				FD0B2E481DC60ACD005FE50B /* XWApp */,
 				FD0B2E471DC60ACD005FE50B /* Products */,
 			);
@@ -60,12 +107,14 @@
 			children = (
 				FD0B2E4C1DC60ACD005FE50B /* AppDelegate.h */,
 				FD0B2E4D1DC60ACD005FE50B /* AppDelegate.m */,
-				FD0B2E4F1DC60ACD005FE50B /* ViewController.h */,
-				FD0B2E501DC60ACD005FE50B /* ViewController.m */,
-				FD0B2E521DC60ACD005FE50B /* Main.storyboard */,
+				FD0B2ECA1DC619F2005FE50B /* Category */,
+				FD0B2E9A1DC618A1005FE50B /* Components */,
+				FD0B2E991DC61888005FE50B /* MainController */,
 				FD0B2E551DC60ACD005FE50B /* Assets.xcassets */,
+				FD0B2ECE1DC61A69005FE50B /* titleTouchLab.png */,
 				FD0B2E571DC60ACD005FE50B /* LaunchScreen.storyboard */,
 				FD0B2E5A1DC60ACD005FE50B /* Info.plist */,
+				FD0B2E7F1DC60ED3005FE50B /* XWAppMacro.h */,
 				FD0B2E491DC60ACD005FE50B /* Supporting Files */,
 			);
 			path = XWApp;
@@ -77,6 +126,87 @@
 				FD0B2E4A1DC60ACD005FE50B /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		FD0B2E991DC61888005FE50B /* MainController */ = {
+			isa = PBXGroup;
+			children = (
+				FD0B2ED01DC61AB9005FE50B /* XWSearchViewController.h */,
+				FD0B2ED11DC61AB9005FE50B /* XWSearchViewController.m */,
+				FD0B2EA41DC61921005FE50B /* PopoverTableViewController.h */,
+				FD0B2EA51DC61921005FE50B /* PopoverTableViewController.m */,
+				FD0B2E9E1DC61918005FE50B /* HWPBaseViewController.h */,
+				FD0B2E9F1DC61918005FE50B /* HWPBaseViewController.m */,
+				FD0B2EA01DC61918005FE50B /* ManagerViewController.h */,
+				FD0B2EA11DC61918005FE50B /* ManagerViewController.m */,
+				FD0B2E9B1DC6190F005FE50B /* MainNavigationController.h */,
+				FD0B2E9C1DC6190F005FE50B /* MainNavigationController.m */,
+			);
+			path = MainController;
+			sourceTree = "<group>";
+		};
+		FD0B2E9A1DC618A1005FE50B /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				FD0B2EA71DC6192B005FE50B /* MyCloud */,
+				FD0B2EAE1DC6192B005FE50B /* MyShare */,
+				FD0B2EB91DC6192B005FE50B /* ShareToMe */,
+				FD0B2EBC1DC6192B005FE50B /* TeamSpace */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		FD0B2EA71DC6192B005FE50B /* MyCloud */ = {
+			isa = PBXGroup;
+			children = (
+				FD0B2EA81DC6192B005FE50B /* HWPMyCloudViewController.h */,
+				FD0B2EA91DC6192B005FE50B /* HWPMyCloudViewController.m */,
+			);
+			path = MyCloud;
+			sourceTree = "<group>";
+		};
+		FD0B2EAE1DC6192B005FE50B /* MyShare */ = {
+			isa = PBXGroup;
+			children = (
+				FD0B2EAF1DC6192B005FE50B /* expandableImage.png */,
+				FD0B2EB01DC6192B005FE50B /* expandableImage@2x.png */,
+				FD0B2EB11DC6192B005FE50B /* HWPBaseCellAccessoryView.h */,
+				FD0B2EB21DC6192B005FE50B /* HWPBaseCellAccessoryView.m */,
+				FD0B2EB31DC6192B005FE50B /* HWPBaseTableView.h */,
+				FD0B2EB41DC6192B005FE50B /* HWPBaseTableView.m */,
+				FD0B2EB51DC6192B005FE50B /* HWPBaseTableViewCell.h */,
+				FD0B2EB61DC6192B005FE50B /* HWPBaseTableViewCell.m */,
+				FD0B2EB71DC6192B005FE50B /* HWPMyShareViewController.h */,
+				FD0B2EB81DC6192B005FE50B /* HWPMyShareViewController.m */,
+			);
+			path = MyShare;
+			sourceTree = "<group>";
+		};
+		FD0B2EB91DC6192B005FE50B /* ShareToMe */ = {
+			isa = PBXGroup;
+			children = (
+				FD0B2EBA1DC6192B005FE50B /* HWPShareToMeViewController.h */,
+				FD0B2EBB1DC6192B005FE50B /* HWPShareToMeViewController.m */,
+			);
+			path = ShareToMe;
+			sourceTree = "<group>";
+		};
+		FD0B2EBC1DC6192B005FE50B /* TeamSpace */ = {
+			isa = PBXGroup;
+			children = (
+				FD0B2EBD1DC6192B005FE50B /* HWPTeamSpaceViewController.h */,
+				FD0B2EBE1DC6192B005FE50B /* HWPTeamSpaceViewController.m */,
+			);
+			path = TeamSpace;
+			sourceTree = "<group>";
+		};
+		FD0B2ECA1DC619F2005FE50B /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				FD0B2ECB1DC61A19005FE50B /* NSString+Category.h */,
+				FD0B2ECC1DC61A19005FE50B /* NSString+Category.m */,
+			);
+			path = Category;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -136,9 +266,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FD0B2ECF1DC61A69005FE50B /* titleTouchLab.png in Resources */,
 				FD0B2E591DC60ACD005FE50B /* LaunchScreen.storyboard in Resources */,
 				FD0B2E561DC60ACD005FE50B /* Assets.xcassets in Resources */,
-				FD0B2E541DC60ACD005FE50B /* Main.storyboard in Resources */,
+				FD0B2EC31DC6192B005FE50B /* expandableImage@2x.png in Resources */,
+				FD0B2E7C1DC60CD0005FE50B /* embedded in Resources */,
+				FD0B2EC21DC6192B005FE50B /* expandableImage.png in Resources */,
+				FD0B2E7E1DC60D13005FE50B /* Entitlements.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -149,23 +283,27 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FD0B2E511DC60ACD005FE50B /* ViewController.m in Sources */,
+				FD0B2EBF1DC6192B005FE50B /* HWPMyCloudViewController.m in Sources */,
+				FD0B2EC81DC6192B005FE50B /* HWPShareToMeViewController.m in Sources */,
+				FD0B2EC51DC6192B005FE50B /* HWPBaseTableView.m in Sources */,
+				FD0B2EA21DC61918005FE50B /* HWPBaseViewController.m in Sources */,
+				FD0B2EA31DC61918005FE50B /* ManagerViewController.m in Sources */,
+				FD0B2EC41DC6192B005FE50B /* HWPBaseCellAccessoryView.m in Sources */,
+				FD0B2ED21DC61AB9005FE50B /* XWSearchViewController.m in Sources */,
+				FD0B2EC91DC6192B005FE50B /* HWPTeamSpaceViewController.m in Sources */,
+				FD0B2EC61DC6192B005FE50B /* HWPBaseTableViewCell.m in Sources */,
 				FD0B2E4E1DC60ACD005FE50B /* AppDelegate.m in Sources */,
+				FD0B2EA61DC61921005FE50B /* PopoverTableViewController.m in Sources */,
+				FD0B2E9D1DC6190F005FE50B /* MainNavigationController.m in Sources */,
+				FD0B2EC71DC6192B005FE50B /* HWPMyShareViewController.m in Sources */,
 				FD0B2E4B1DC60ACD005FE50B /* main.m in Sources */,
+				FD0B2ECD1DC61A19005FE50B /* NSString+Category.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		FD0B2E521DC60ACD005FE50B /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				FD0B2E531DC60ACD005FE50B /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		FD0B2E571DC60ACD005FE50B /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -265,9 +403,17 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = Entitlements.plist;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					../build,
+					../build_arm,
+				);
+				GCC_PREFIX_HEADER = XWApp/XWAppMacro.h;
 				INFOPLIST_FILE = XWApp/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.lifeiheng.onebox.XWApp;
+				PRODUCT_BUNDLE_IDENTIFIER = com.lifeiheng.XWApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -276,9 +422,17 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = Entitlements.plist;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					../build,
+					../build_arm,
+				);
+				GCC_PREFIX_HEADER = XWApp/XWAppMacro.h;
 				INFOPLIST_FILE = XWApp/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.lifeiheng.onebox.XWApp;
+				PRODUCT_BUNDLE_IDENTIFIER = com.lifeiheng.XWApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
@@ -302,6 +456,7 @@
 				FD0B2E5F1DC60ACD005FE50B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

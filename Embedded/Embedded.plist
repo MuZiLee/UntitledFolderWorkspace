@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>identifier</key>
+		<string>com.lifeiheng.XWOneBox</string>
+		<key>version</key>
+		<string>1</string>
+		<key>frameworkName</key>
+		<string>XWOneBox</string>
+		<key>zipName</key>
+		<string>XWOneBox</string>
+		<key>resources</key>
+		<dict>
+			<key>item 0</key>
+			<string>main</string>
+		</dict>
+	</dict>
+	<dict>
+		<key>identifier</key>
+		<string>com.lifeiheng.XWTest</string>
+		<key>version</key>
+		<string>1</string>
+		<key>frameworkName</key>
+		<string>XWTest</string>
+		<key>zipName</key>
+		<string>XWTest</string>
+		<key>resources</key>
+		<dict>
+			<key>item 0</key>
+			<string>main</string>
+		</dict>
+	</dict>
+</array>
+</plist>

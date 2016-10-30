@@ -1,15 +1,13 @@
 //
-//  ViewController.h
-//  XWApp
+//  XWOneBoxDelegate.h
+//  XWOneBox
 //
 //  Created by 李飞恒 on 16/10/30.
 //  Copyright © 2016年 李飞恒. All rights reserved.
 //
 
-#import <UIKit/UIKit.h>
+#import <Foundation/Foundation.h>
 
-@interface ViewController : UIViewController
-
+@interface XWOneBoxDelegate : NSObject
 
 @end
-
