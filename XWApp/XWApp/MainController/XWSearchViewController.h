@@ -13,6 +13,8 @@ extern CGFloat const EXT_SEARCH_BAR_HEIGHT;
 
 @interface XWSearchViewController : HWPBaseViewController
 
+@property (nonatomic, strong) UISearchController *search;
+
 @property (nonatomic, strong) XWSearchController *searchController;
 @property (nonatomic, strong) UIView *contentView;
 

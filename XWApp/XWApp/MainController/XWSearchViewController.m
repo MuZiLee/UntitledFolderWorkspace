@@ -17,20 +17,12 @@ CGFloat const EXT_SEARCH_BAR_HEIGHT = 44;
 
 @interface XWSearchViewController () <UISearchControllerDelegate,UISearchResultsUpdating>
 
-@property (nonatomic, strong) UISearchController *search;
+
 
 
 @end
 
 @implementation XWSearchViewController
-- (instancetype)init
-{
-    self = [super init];
-    if (self) {
-        
-    }
-    return self;
-}
 
 - (void)viewDidLoad {
     [super viewDidLoad];
@@ -109,7 +101,7 @@ CGFloat const EXT_SEARCH_BAR_HEIGHT = 44;
 {
     [super viewDidLoad];
     
-    self.view.backgroundColor = [UIColor colorWithRed:0.0 green:0.0 blue:0.0 alpha:0.2];
+    self.view.backgroundColor = [UIColor colorWithRed:0.0 green:0.0 blue:0.0 alpha:0.1];
 }
 
 - (void)touchesBegan:(NSSet<UITouch *> *)touches withEvent:(UIEvent *)event
