@@ -2,13 +2,7 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "group:ExpandTableView/ExpandTableView.xcodeproj">
-   </FileRef>
-   <FileRef
       location = "group:XWApp/XWApp.xcodeproj">
-   </FileRef>
-   <FileRef
-      location = "group:XWTest/XWTest.xcodeproj">
    </FileRef>
    <FileRef
       location = "group:XWOneBox/XWOneBox.xcodeproj">
