@@ -46,7 +46,7 @@
     self.tableView.mj_footer = [MJRefreshFooter footerWithRefreshingBlock:^{
         
     }];
-    [self.tableView.mj_footer beginRefreshing];
+//    [self.tableView.mj_footer beginRefreshing];
 }
 
 - (void)loadNewData {
