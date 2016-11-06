@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10117" systemVersion="15E65" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="miK-OH-mva">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="xgN-NC-Ui9">
+            <objects>
+                <viewController id="miK-OH-mva" customClass="ViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="j5E-wW-hUr"/>
+                        <viewControllerLayoutGuide type="bottom" id="1Wy-IZ-uwb"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="0Dm-HC-reL">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="480"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="TBS-ol-Fia">
+                                <rect key="frame" x="20" y="107" width="105" height="30"/>
+                                <color key="backgroundColor" red="0.29803922770000002" green="0.29803922770000002" blue="0.29803922770000002" alpha="1" colorSpace="calibratedRGB"/>
+                                <state key="normal" title="delete"/>
+                                <connections>
+                                    <action selector="deleteAction:" destination="miK-OH-mva" eventType="touchUpInside" id="r2t-iB-feg"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="G8a-ua-6N2">
+                                <rect key="frame" x="20" y="145" width="105" height="30"/>
+                                <color key="backgroundColor" red="0.29803922770000002" green="0.29803922770000002" blue="0.29803922770000002" alpha="1" colorSpace="calibratedRGB"/>
+                                <state key="normal" title="update"/>
+                                <connections>
+                                    <action selector="updateAction:" destination="miK-OH-mva" eventType="touchUpInside" id="XIE-RG-dWJ"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0eH-Iq-m2B">
+                                <rect key="frame" x="20" y="183" width="105" height="30"/>
+                                <color key="backgroundColor" red="0.29803922770000002" green="0.29803922770000002" blue="0.29803922770000002" alpha="1" colorSpace="calibratedRGB"/>
+                                <state key="normal" title="select"/>
+                                <connections>
+                                    <action selector="selectAction:" destination="miK-OH-mva" eventType="touchUpInside" id="CXZ-S5-GNv"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Yca-qp-tKk">
+                                <rect key="frame" x="20" y="69" width="105" height="30"/>
+                                <color key="backgroundColor" red="0.29803922770000002" green="0.29803922770000002" blue="0.29803922770000002" alpha="1" colorSpace="calibratedRGB"/>
+                                <state key="normal" title="exect"/>
+                                <connections>
+                                    <action selector="execList:" destination="miK-OH-mva" eventType="touchUpInside" id="4bc-cd-7Cn"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="tNT-0h-2MQ">
+                                <rect key="frame" x="20" y="31" width="105" height="30"/>
+                                <color key="backgroundColor" red="0.29803922770000002" green="0.29803922770000002" blue="0.29803922770000002" alpha="1" colorSpace="calibratedRGB"/>
+                                <state key="normal" title="insert"/>
+                                <connections>
+                                    <action selector="insertAction:" destination="miK-OH-mva" eventType="touchUpInside" id="K1i-C6-1UW"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                    </view>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="T9S-uo-BiF" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="374" y="311"/>
+        </scene>
+    </scenes>
+</document>

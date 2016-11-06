@@ -2,6 +2,9 @@
 <Workspace
    version = "1.0">
    <FileRef
+      location = "group:SQLite3ProFile/SQLite3ProFile.xcodeproj">
+   </FileRef>
+   <FileRef
       location = "group:XWApp/XWApp.xcodeproj">
    </FileRef>
    <FileRef
